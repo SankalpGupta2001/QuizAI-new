@@ -1,0 +1,86 @@
+/* Styles for form container */
+.form-container {
+  width: 60%; /* Set width to 60% of the screen */
+  margin: 50px auto; /* Center the form horizontally with some top margin */
+  background-color: #f4f4f4; /* Light background color */
+  padding: 30px; /* Add some padding */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* Form title styles */
+.form-title {
+  text-align: center; /* Center align the title */
+  margin-bottom: 30px; /* Add some bottom margin */
+  color: #333; /* Dark text color */
+}
+
+/* Form styles */
+.custom-form {
+  display: flex;
+  flex-direction: column;
+}
+.custom-form .submitbtn {
+  width: 200px; /* Set button width to 200px */
+}
+
+/* Form group styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+.form-group label {
+  display: block; /* Make labels display as block to move them to a new line */
+  font-weight: bold; /* Make labels bold */
+  margin-bottom: 5px; /* Add some bottom margin */
+}
+
+/* Input styles */
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group select {
+  width: calc(100% - 10px); /* Make inputs full width with a little padding */
+  padding: 10px; /* Add padding for better spacing */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius */
+}
+
+/* Button styles */
+.btn-primary {
+  width: 100%; /* Make button full width */
+  padding: 10px; /* Add padding */
+  border: none; /* Remove border */
+  background-color: #007bff; /* Primary button color */
+  color: #fff; /* Text color */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Add cursor pointer */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Checkbox and checkbox label styles */
+.form-check-input {
+  margin-right: 10px; /* Add some margin between checkbox and label */
+}
+
+.form-check-label {
+  margin-bottom: 5px; /* Add some bottom margin to checkbox label */
+  font-weight: bold; /* Make labels bold */
+
+}
+
+
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group select {
+  width: 100%; /* Make inputs full width */
+}
+
+.big-input,
+.big-dropdown {
+  width: 70%; /* Adjust width of bigger inputs and dropdowns */
+}
